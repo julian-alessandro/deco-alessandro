@@ -51,14 +51,19 @@ a{
 }
 
 li{
- display: inline;
- margin-right: 0.5rem;
- 
- 
+    display: inline;
+    margin: 6px;
 }
-
+   
 .btn-open-sidebar{
     display: none;
+}
+   
+/* ANIMACIONES DEL NAV */
+a:hover{
+    background-color: rgba(0, 0, 0, 0.13);
+    border-radius: 10px;
+    text-align: center;
 }
 
 /* TEXTO DEL MAIN */
@@ -217,7 +222,8 @@ main{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 1rem;
+    text-align: center;
+    gap: 5px;
     padding: 1rem;
     transition: transform 0.5s;
     z-index: 1;
