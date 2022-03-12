@@ -5,8 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Deco Alessandro | Inicio</title>
+
     <!-- CSS LINK -->
     <link rel="stylesheet" href="css/index.css">
+
+    <!-- CSS BOOSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
     <!-- ICONOS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -24,51 +28,53 @@
             <!-- SECCIONES -->
            
                 <div class="titulo">
-                    <a href="index.html" ><h1 >Deco Alessandro</h1></a>
+                    <a class="linkPropio" href="index.html" ><h1 class="tituloPropio" >Deco Alessandro</h1></a>
                 </div>
+                
 
                 <!-- BOTON HAMBURGUESA -->
             <nav>
                 <a class="btn-open-sidebar" href="#menu"><i class="fa fa-bars"></i></a>
                 <ul id="menu-normal">
-                    <a href="index.html"><li>Inicio</li></a>
-                    <a href="secciones/productos.html"><li>Productos</li></a>
-                    <a href="secciones/quienes.html"><li>¿Quienes Somos?</li></a>
-                    <a href="secciones/sucursal.html"><li>Sucursal</li></a>
-                    <a href="secciones/contacto.html"><li>Contacto</li></a>
+                    <li class="tituloPropio"><a class="linkPropio" href="index.html">Inicio</a></li>
+                    <li><a class="linkPropio" href="secciones/productos.html">Productos</a></li>
+                    <li><a class="linkPropio" href="secciones/quienes.html">¿Quienes Somos?</a></li>
+                    <li><a class="linkPropio" href="secciones/sucursal.html">Sucursal</a></li>
+                    <li><a class="linkPropio" href="secciones/contacto.html">Contacto</a></li>
                     <!-- CERRAR BOTON HAMBURGUESA -->
-                    <a class="nav__enlace btn-close-sidebar" href="#"><li class="oculto">❌</li></a> 
+                    <li class="oculto"><a class="nav__enlace btn-close-sidebar" href="#">❌</a></li> 
                  </ul>
             </nav>
     </header>
 
                 <ul id="menu">
-                    <a href="index.html"><li>Inicio</li></a>
-                    <a href="secciones/productos.html"><li>Productos</li></a>
-                    <a href="secciones/quienes.html"><li>¿Quienes Somos?</li></a>
-                    <a href="secciones/sucursal.html"><li>Sucursal</li></a>
-                    <a href="secciones/contacto.html"><li>Contacto</li></a>
+                    <li><a class="linkPropio" href="index.html">Inicio</a></li>
+                    <li><a class="linkPropio" href="secciones/productos.html">Productos</a></li>
+                    <li><a class="linkPropio" href="secciones/quienes.html">¿Quienes Somos?</a></li>
+                    <li><a class="linkPropio" href="secciones/sucursal.html">Sucursal</a></li>
+                    <li><a class="linkPropio" href="secciones/contacto.html">Contacto</a></li>
                     <!-- CERRAR BOTON HAMBURGUESA -->
-                    <a class="nav__enlace btn-close-sidebar" href="#"><li class="oculto">❌</li></a> 
+                    <li class="oculto"><a class="nav__enlace btn-close-sidebar" href="#">❌</a></li> 
                 </ul>
 
     <main>
         <section class="bien">
-            <div class="bien__textoUno">
-            <h2>BIENVENIDOS</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur optio iusto iste quod eaque animi, porro eius fugiat voluptas? Vitae saepe, commodi hic facilis placeat nihil nisi culpa corporis officia.
-                Veniam in delectus pariatur nemo doloribus. Totam maxime necessitatibus consequatur delectus cumque sit sapiente optio enim sed, numquam quas, porro debitis corporis, vitae itaque praesentium! Asperiores soluta libero exercitationem mollitia.
-                Quasi culpa dolorum aperiam explicabo, quam unde quia alias facere obcaecati eos cum ut. Expedita eligendi, nostrum modi soluta placeat veniam porro delectus laborum accusantium similique, facere eius quisquam exercitationem?</p>
-            </div> 
+            <div class="container-fluid p-0">
+                <div class="row bien__textoUno">
+                    <h2>BIENVENIDOS</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur optio iusto iste quod eaque animi, porro eius fugiat voluptas? Vitae saepe, commodi hic facilis placeat nihil nisi culpa corporis officia.
+                    Veniam in delectus pariatur nemo doloribus. Totam maxime necessitatibus consequatur delectus cumque sit sapiente optio enim sed, numquam quas, porro debitis corporis, vitae itaque praesentium! Asperiores soluta libero exercitationem mollitia.
+                    Quasi culpa dolorum aperiam explicabo, quam unde quia alias facere obcaecati eos cum ut. Expedita eligendi, nostrum modi soluta placeat veniam porro delectus laborum accusantium similique, facere eius quisquam exercitationem?</p>
+                </div> 
 
-            <div class="bien__textoDos" data-aos="zoom-in">
-            <h2>ULTIMAS NOVEDADES</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur illum labore odio suscipit, recusandae porro vero cumque ullam quidem asperiores officia, cum odit quia laboriosam totam quod non, voluptatum dignissimos?
-                Quos quisquam eos expedita nostrum eveniet animi eum! Animi dignissimos eius minus, ipsum incidunt tenetur ad, voluptatem maiores soluta sunt, odit a esse nesciunt ab sint. Sequi a nobis quia?
-                Perspiciatis incidunt officiis debitis nisi dolorum dolore dolores, ad distinctio cupiditate nihil? Eaque blanditiis, maxime qui accusantium molestiae facilis eos voluptas, natus iusto temporibus repudiandae sunt quos nam reprehenderit obcaecati?</p>
+                <div class="row bien__textoDos" data-aos="zoom-in">
+                    <h2>ULTIMAS NOVEDADES</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur illum labore odio suscipit, recusandae porro vero cumque ullam quidem asperiores officia, cum odit quia laboriosam totam quod non, voluptatum dignissimos?
+                    Quos quisquam eos expedita nostrum eveniet animi eum! Animi dignissimos eius minus, ipsum incidunt tenetur ad, voluptatem maiores soluta sunt, odit a esse nesciunt ab sint. Sequi a nobis quia?
+                    Perspiciatis incidunt officiis debitis nisi dolorum dolore dolores, ad distinctio cupiditate nihil? Eaque blanditiis, maxime qui accusantium molestiae facilis eos voluptas, natus iusto temporibus repudiandae sunt quos nam reprehenderit obcaecati?</p>
             
+                </div>
             </div>
-
         </section>
     </main>
 
@@ -79,9 +85,12 @@
 
     <!-- AOS SCRIPT -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+            AOS.init();
+    </script>
+    <!-- SCRIPT BOOSTRAP -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
    
-   <script>
-        AOS.init();
-      </script>
+   
 </body>
 </html>
