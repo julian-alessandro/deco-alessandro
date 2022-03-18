@@ -1,0 +1,44 @@
+/* TEXTO DEL MAIN */
+/* INDEX */
+.bien{
+    height: 100%;
+    width: 100%;
+
+    &__textoUno{
+        text-align: $infoPosicion;
+        font-size: 20px;
+        padding-top: 200px;
+        height: 580px;
+        color: white;
+        margin-bottom: 7rem;
+        background-image: url(../img/bienvenidos.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        /* animation: text 2s 1; */
+}
+}
+
+@keyframes text{
+    0%{
+        margin-bottom: -40px;
+    }
+    30%{
+        letter-spacing: 1rem;
+        margin-bottom: -40px;
+    }
+    85%{
+        letter-spacing: 6px;
+        margin-bottom: -40px;
+    }
+}
+
+.bien{
+
+    &__textoDos{
+        text-align: $infoPosicion;
+        font-size: 20px;
+        margin-bottom: 5rem;
+        /* animation: text 2s 1; */
+}
+}

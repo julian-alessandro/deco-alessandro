@@ -1,0 +1,15 @@
+/* TEXTO DEL MAIN */
+/* SUCURSAL */
+.container__titulo{
+    text-align: $tituloPosicion;
+    margin: 50px;
+    font-size: 35px;
+}
+
+.contenedorMaps{
+    justify-content: center;
+    text-align: $infoPosicion;
+    height: 330px;
+    width: 100%;
+    padding: 30px;
+}

@@ -1,0 +1,19 @@
+/* TEXTO DEL MAIN */
+/* QUIENES */
+.container__titulo{
+    text-align: $tituloPosicion;
+    margin: 50px;
+    font-size: 35px;
+}
+.container__parrafo{
+    text-align: $infoPosicion;
+    margin: 30px;
+    font-size: 25px;
+}
+
+.contenedorImg{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    height: 100%;
+}
