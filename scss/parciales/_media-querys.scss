@@ -88,8 +88,7 @@
     left: 0;
     transform: translatey(-160px);
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    @include crearFlex(center, center);
     text-align: center;
     padding: 1rem;
     transition: transform 0.5s;
@@ -130,10 +129,8 @@
     .carrusel{
         height: 250px ;
         width: 70% ;
-        /* object-fit: cover; */
         border: rgb(0, 0, 0) solid;
         border-radius: 30px;
-        /* padding: 120px; */
         margin: auto;
     }
 

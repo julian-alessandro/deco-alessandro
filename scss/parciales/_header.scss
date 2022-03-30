@@ -1,7 +1,7 @@
 /* BARRA DE NAVEGACION */
 .encabezado{
     background-color: $colorHeader;
-    color: black;
+    color: map-get($estilos, color );
     height: 80px;
     width: 100%;
    display: grid;
@@ -16,14 +16,12 @@
     line-height: 1.2;
     font-weight: 600;
     margin-bottom: 0%;
-    color: black;
+    color: map-get($estilos, color );
     text-decoration: none;
 }
 
 .encabezado nav{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    @include crearFlex(space-around, center);   
 }
 
 #menu {
@@ -64,6 +62,6 @@ li{
 .linkPropio:hover{
     background-color: rgba(0, 0, 0, 0.13);
     border-radius: 10px;
-    text-align: center;
+    text-align:map-get($estilos, center);
     color: black;
 }

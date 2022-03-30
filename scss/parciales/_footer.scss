@@ -1,13 +1,13 @@
 /* FOOTER */
 footer{
     height: 100px;
-    background-color: black;
+    background-color:map-get($estilos, color);
     margin: 100px 50px 50px 50px;
     
 }
 
 footer p{
     color: white;
-    text-align: center;
+    text-align:map-get($estilos, texto);
     padding-top: 40px;
 }

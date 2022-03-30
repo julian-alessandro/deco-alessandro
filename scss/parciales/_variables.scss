@@ -1,5 +1,17 @@
+// DECLARAR VARIABLES
+
 $infoPosicion: center;
 $tituloPosicion: center;
 $tipografiaPrincipal: 'Gideon Roman', cursive !important;
 $colorPrincipal: rgba(139, 137, 124, 0.568);
 $colorHeader: rgb(111, 108, 116);
+
+// MAPAS
+$estilos: (
+    centro: center,
+    color: black,
+    texto: center,
+    contenido: center,
+    1rem: 1rem
+);
+
