@@ -13,4 +13,25 @@
     border: rgb(0, 0, 0) solid;
     border-radius: 30px;
     margin: auto;
+    filter: grayscale(50%);
+
+    &--Tres{
+    height: 368px ;
+    width: 50% ;
+    border: rgb(0, 0, 0) solid;
+    border-radius: 30px;
+    margin: auto;
+    
+    
 }
+}
+.textoCarrusel{
+    padding: 0%;
+    color: rgb(0, 0, 0)!important;
+    font-weight: 600;
+}
+.carousel-caption {
+    padding-bottom: 15.5rem !important;
+    
+}
+

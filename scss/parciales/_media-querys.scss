@@ -15,6 +15,7 @@
     p{
         padding: 30px;
         flex-wrap: nowrap;
+        font-size: 18px;
     }
     .encabezado{
         padding: 0%;
@@ -34,10 +35,34 @@
         padding-top: 100px;
         font-size: 20px;
     }
-
-    footer{
-     margin: 100px 30px 30px 30px
-    }  
+    // FOOTER
+    .icono{
+        display: flexbox;
+        flex-direction: row;
+        text-align: center;
+        justify-items: center;
+        justify-content: center;
+    }
+    .textoFooter{
+        font-size: 15px;
+        padding: 0%;
+    }
+    .footerBox{
+        height: 100px;
+        background-color:map-get($estilos, color);
+        margin: 100px 50px 50px 50px;
+        color: white;
+        text-align:map-get($estilos, texto);
+        padding-top: 7px !important;
+        padding-bottom: 40px !important;
+    }
+    // CARRUSEL / PRODUCTOS
+    .textoCarrusel{
+        padding: 0%;
+        color: rgb(0, 0, 0)!important;
+        font-weight: 600;
+        font-size: 14px;
+    }
 }
 
 
@@ -132,10 +157,39 @@
         border: rgb(0, 0, 0) solid;
         border-radius: 30px;
         margin: auto;
-    }
 
+        &--Tres{
+            height: 250px ;
+            width: 70% ;
+            border: rgb(0, 0, 0) solid;
+            border-radius: 30px;
+            margin: auto;
+        }
+    }
     /* QUIENES */
     .container__parrafo{
         font-size: 18px;
+    }
+
+    // FOOTER
+    .icono{
+        display: flexbox;
+        flex-direction: row;
+        text-align: center;
+        justify-items: center;
+        justify-content: center;
+    }
+    .footerBox{
+        height: 100px;
+        background-color:map-get($estilos, color);
+        margin: 100px 50px 50px 50px;
+        color: white;
+        text-align:map-get($estilos, texto);
+        padding-top: 7px !important;
+        padding-bottom: 40px !important;
+    }
+    .textoFooter{
+        font-size: 15px;
+        padding: 0%;
     }
 }

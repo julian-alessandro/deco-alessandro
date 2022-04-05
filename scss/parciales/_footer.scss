@@ -1,13 +1,17 @@
 /* FOOTER */
-footer{
+.icono{
+    display: flexbox;
+    flex-direction: row;
+    text-align: center;
+    justify-items: center;
+    justify-content: center;
+}
+.footerBox{
     height: 100px;
     background-color:map-get($estilos, color);
     margin: 100px 50px 50px 50px;
-    
-}
-
-footer p{
     color: white;
     text-align:map-get($estilos, texto);
-    padding-top: 40px;
+    padding-top: 7px;
+    padding-bottom: 40px;
 }
