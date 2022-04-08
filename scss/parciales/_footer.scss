@@ -1,17 +1,26 @@
 /* FOOTER */
 .icono{
-    display: flexbox;
-    flex-direction: row;
     text-align: center;
     justify-items: center;
     justify-content: center;
+    align-items: center;
+}
+.textoFooter{
+    text-align: center;
+    justify-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin-bottom: 0%;
 }
 .footerBox{
-    height: 100px;
-    background-color:map-get($estilos, color);
+    display: flex;
+    flex-direction: row; 
+    background-color: black;
     margin: 100px 50px 50px 50px;
     color: white;
-    text-align:map-get($estilos, texto);
+    text-align: center;
     padding-top: 7px;
-    padding-bottom: 40px;
+    padding: 20px;
+    justify-content: space-evenly;
+    align-items: center;
 }

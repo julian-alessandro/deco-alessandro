@@ -7,6 +7,9 @@
     margin-right: 30px;
     margin-bottom: 50px;
 }
+.imagenQuery{
+    display: none;
+}
 .carrusel{
     height: 368px ;
     width: 50% ;
@@ -29,6 +32,9 @@
     padding: 0%;
     color: rgb(0, 0, 0)!important;
     font-weight: 600;
+}
+.carousel-item{
+    transition: transform .6s ease-in-out !important;
 }
 .carousel-caption {
     padding-bottom: 15.5rem !important;

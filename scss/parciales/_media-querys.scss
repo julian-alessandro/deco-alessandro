@@ -45,16 +45,13 @@
     }
     .textoFooter{
         font-size: 15px;
-        padding: 0%;
+        padding: 10px;
     }
     .footerBox{
-        height: 100px;
         background-color:map-get($estilos, color);
         margin: 100px 50px 50px 50px;
         color: white;
         text-align:map-get($estilos, texto);
-        padding-top: 7px !important;
-        padding-bottom: 40px !important;
     }
     // CARRUSEL / PRODUCTOS
     .textoCarrusel{
@@ -62,6 +59,12 @@
         color: rgb(0, 0, 0)!important;
         font-weight: 600;
         font-size: 14px;
+    }
+    .carousel-item{
+        transition: transform .6s ease-in-out !important;
+    }
+    .imagenQuery{
+        display: none;
     }
 }
 
@@ -120,6 +123,12 @@
     z-index: 1;
 
     }
+    li{
+    display: inline;
+    margin: 4px;
+    text-decoration: none;
+    color: black;
+    }
 
     nav a{
         color: rgb(0, 0, 0);
@@ -144,12 +153,18 @@
         transform: translateX(0);
     }
     .linkPropio{
-        font-size: 17px;
+        font-size: 13.5px;
     }
 
     /* PRODUCTOS */
+    #carouselExampleCaptions{
+        display: none;
+    }
     .carousel.item .active{
         height: 120%;
+    }
+    .carousel-item{
+        transition: transform .6s ease-in-out !important;
     }
     .carrusel{
         height: 250px ;
@@ -165,6 +180,49 @@
             border-radius: 30px;
             margin: auto;
         }
+        // MEDIA QUERY PRODUCTOS / MOVIL
+    }
+    .contenedorQuery{
+        padding: 20px;
+    }
+    .imagenQuery{
+        display: block;
+        width: 100%;
+        // height: 200px;
+        border: solid;
+        // margin-bottom: 35px;
+        // margin-left: 10px;
+    }
+    .overlay{
+        background-color: #6f6c74;
+        height: 212px;
+        opacity: 0;
+        z-index: 1;
+        transform: translate(0%, -100%);
+        transition: 0.5s ease;
+        position: relative;
+    }
+    .overlayTitulo{
+        color: white;
+        font-size: 1.2rem;
+        text-align: center;
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .overlayTexto{
+        color: white;
+        font-size: 0.8rem;
+        text-align: center;
+        position: absolute;
+        top: 55%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 0%;
+    }
+    .contenedorQuery:hover .overlay{
+        opacity: 1;
     }
     /* QUIENES */
     .container__parrafo{
@@ -173,20 +231,17 @@
 
     // FOOTER
     .icono{
-        display: flexbox;
         flex-direction: row;
         text-align: center;
         justify-items: center;
         justify-content: center;
     }
     .footerBox{
-        height: 100px;
+        display:block;
         background-color:map-get($estilos, color);
         margin: 100px 50px 50px 50px;
         color: white;
         text-align:map-get($estilos, texto);
-        padding-top: 7px !important;
-        padding-bottom: 40px !important;
     }
     .textoFooter{
         font-size: 15px;
