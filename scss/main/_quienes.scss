@@ -1,18 +1,33 @@
 /* TEXTO DEL MAIN */
 /* QUIENES */
-.container__titulo{
+.containerFondo{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0,0,0,0.5)),url(../../img/quienes.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 80px 40px;
+}
+.containerTitulo{
     text-align: $tituloPosicion;
     margin: 50px;
     font-size: 35px;
+    color: white;
+    padding: 20px;
 }
-.container__parrafo{
+.containerParrafoUno{
     text-align: $infoPosicion;
     margin: 30px;
     font-size: 25px;
+    color: rgb(255, 255, 255);
+    padding: 30px;
 }
-
+.containerParrafoDos{
+    text-align: $infoPosicion;
+    margin: 30px;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    padding: 30px;
+}
 .contenedorImg{
-    @include crearFlex(center, stretch);
-    margin: 50px;
-    height: 100%;
+    display: none;
 }

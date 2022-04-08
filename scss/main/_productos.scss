@@ -12,7 +12,7 @@
 }
 .carrusel{
     height: 368px ;
-    width: 50% ;
+    // width: 50% ;
     border: rgb(0, 0, 0) solid;
     border-radius: 30px;
     margin: auto;
@@ -20,7 +20,7 @@
 
     &--Tres{
     height: 368px ;
-    width: 50% ;
+    // width: 50% ;
     border: rgb(0, 0, 0) solid;
     border-radius: 30px;
     margin: auto;
@@ -40,4 +40,6 @@
     padding-bottom: 15.5rem !important;
     
 }
-
+.contenedorQuery{
+    display: none;
+}

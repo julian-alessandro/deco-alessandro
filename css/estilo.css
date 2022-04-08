@@ -115,14 +115,12 @@ li {
 
 .carrusel {
   height: 368px;
-  width: 50%;
   border: black solid;
   border-radius: 30px;
   margin: auto;
   filter: grayscale(50%); }
   .carrusel--Tres {
     height: 368px;
-    width: 50%;
     border: black solid;
     border-radius: 30px;
     margin: auto; }
@@ -138,28 +136,50 @@ li {
 .carousel-caption {
   padding-bottom: 15.5rem !important; }
 
+.contenedorQuery {
+  display: none; }
+
 /* TEXTO DEL MAIN */
 /* QUIENES */
+.containerFondo {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../img/quienes.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 80px 40px; }
+
+.containerTitulo {
+  text-align: center;
+  margin: 50px;
+  font-size: 35px;
+  color: white;
+  padding: 20px; }
+
+.containerParrafoUno {
+  text-align: center;
+  margin: 30px;
+  font-size: 25px;
+  color: white;
+  padding: 30px; }
+
+.containerParrafoDos {
+  text-align: center;
+  margin: 30px;
+  font-size: 25px;
+  color: white;
+  padding: 30px; }
+
+.contenedorImg {
+  display: none; }
+
+/* TEXTO DEL MAIN */
+/* SUCURSAL */
 .container__titulo {
   text-align: center;
   margin: 50px;
   font-size: 35px; }
 
 .container__parrafo {
-  text-align: center;
-  margin: 30px;
-  font-size: 25px; }
-
-.contenedorImg {
-  display: flex;
-  justify-content: center;
-  align-items: stretch;
-  margin: 50px;
-  height: 100%; }
-
-/* TEXTO DEL MAIN */
-/* SUCURSAL */
-.container__titulo {
   text-align: center;
   margin: 50px;
   font-size: 35px; }
@@ -295,7 +315,9 @@ textarea {
   .carousel-item {
     transition: transform .6s ease-in-out !important; }
   .imagenQuery {
-    display: none; } }
+    display: none; }
+  .container__parrafo {
+    font-size: 25px; } }
 
 /* MOVIL */
 @media screen and (max-width: 600px) {
@@ -379,19 +401,22 @@ textarea {
       border-radius: 30px;
       margin: auto; }
   .contenedorQuery {
-    padding: 20px; }
+    display: block;
+    position: relative;
+    margin: 20px; }
   .imagenQuery {
     display: block;
     width: 100%;
     border: solid; }
   .overlay {
     background-color: #6f6c74;
-    height: 212px;
     opacity: 0;
     z-index: 1;
-    transform: translate(0%, -100%);
     transition: 0.5s ease;
-    position: relative; }
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%; }
   .overlayTitulo {
     color: white;
     font-size: 1.2rem;
@@ -413,7 +438,23 @@ textarea {
     opacity: 1; }
   /* QUIENES */
   .container__parrafo {
-    font-size: 18px; }
+    font-size: 16px; }
+  .containerFondo {
+    background-image: none; }
+  .containerTitulo {
+    text-align: center;
+    margin: 0;
+    font-size: 19px;
+    color: black; }
+  .containerParrafoUno {
+    text-align: center;
+    margin: 0;
+    font-size: 14px;
+    color: black; }
+  .contenedorImg {
+    display: block; }
+  .containerParrafoDos {
+    display: none; }
   .icono {
     flex-direction: row;
     text-align: center;

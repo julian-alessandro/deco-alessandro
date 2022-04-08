@@ -66,6 +66,12 @@
     .imagenQuery{
         display: none;
     }
+
+    // SUCURSAL
+    .container__parrafo{
+       
+        font-size: 25px;
+    }
 }
 
 
@@ -183,24 +189,24 @@
         // MEDIA QUERY PRODUCTOS / MOVIL
     }
     .contenedorQuery{
-        padding: 20px;
+        display: block;
+        position: relative;
+        margin: 20px;
     }
     .imagenQuery{
         display: block;
         width: 100%;
-        // height: 200px;
         border: solid;
-        // margin-bottom: 35px;
-        // margin-left: 10px;
     }
     .overlay{
         background-color: #6f6c74;
-        height: 212px;
         opacity: 0;
         z-index: 1;
-        transform: translate(0%, -100%);
         transition: 0.5s ease;
-        position: relative;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
     }
     .overlayTitulo{
         color: white;
@@ -226,8 +232,30 @@
     }
     /* QUIENES */
     .container__parrafo{
-        font-size: 18px;
+        font-size: 16px;
     }
+    .containerFondo{
+        background-image: none;
+    }
+    .containerTitulo{
+        text-align: $tituloPosicion;
+        margin: 0;
+        font-size: 19px;
+        color: rgb(0, 0, 0);
+    }
+    .containerParrafoUno{
+        text-align: $infoPosicion;
+        margin: 0;
+        font-size: 14px;
+        color: rgb(0, 0, 0);
+    }
+    .contenedorImg{
+        display: block;
+    }
+    .containerParrafoDos{
+        display: none;
+    }
+
 
     // FOOTER
     .icono{
